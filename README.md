@@ -24,6 +24,6 @@ Dentro de `update.json`, `downloadUrl` debe apuntar al instalador publicado en R
 2. Actualizar `update.json` con:
    - `version`
    - `downloadUrl`
-   - `checksumSha256` del instalador publicado
    - `releaseNotes`
+   - (Opcional recomendado) `checksumSha256` del instalador publicado
 3. Confirmar que `https://dannyarevalos.github.io/update.json` refleja el contenido actualizado.
