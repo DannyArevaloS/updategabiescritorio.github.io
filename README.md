@@ -17,3 +17,13 @@ En tu app JavaFX (`config.properties`):
 Dentro de `update.json`, `downloadUrl` debe apuntar al instalador publicado en Releases, por ejemplo:
 
 `https://github.com/dannyarevalos/javafx-app/releases/download/v1.0.3/GABI-Setup-1.0.3.exe`
+
+## Proceso recomendado por release
+
+1. Publicar el instalador (`.exe`/`.msi`) como asset de un GitHub Release.
+2. Actualizar `update.json` con:
+   - `version`
+   - `downloadUrl`
+   - `checksumSha256` del instalador publicado
+   - `releaseNotes`
+3. Confirmar que `https://dannyarevalos.github.io/update.json` refleja el contenido actualizado.
