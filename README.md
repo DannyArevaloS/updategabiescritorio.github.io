@@ -16,4 +16,4 @@ En tu app JavaFX (`config.properties`):
 
 Dentro de `update.json`, `downloadUrl` debe apuntar al instalador publicado en Releases, por ejemplo:
 
-`https://github.com/tuusuario/javafx-app/releases/download/v1.0.3/GABI-Setup-1.0.3.exe`
+`https://github.com/dannyarevalos/javafx-app/releases/download/v1.0.3/GABI-Setup-1.0.3.exe`
